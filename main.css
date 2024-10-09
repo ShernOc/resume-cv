@@ -9,6 +9,10 @@
     --fontFamily:Arial, Helvetica, sans-serif;
 
 }
+/* This hides my number  */
+.number{
+    opacity:0;
+}
 
 /* icons  */
 .fa-phone,
