@@ -11,3 +11,12 @@ body{
     background:rgb(226, 235, 212);
     font-size: 20px;
 }
+p{
+    color:green;
+}
+
+/* icons  */
+
+.fa-phone, .fa-envelope{
+    color:green;
+}
