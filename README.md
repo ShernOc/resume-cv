@@ -13,8 +13,8 @@ Open index.html in the browse to view.
 No downloads are needed. 
 
 # Live Demo: 
-Vercel-link: 
+Vercel-link: https://resume-fchpwp519-shernocs-projects.vercel.app/
 
 # Contribution: 
-The resume is open for collaboration and guidance. 
+ My resume is open for collaboration and guidance. 
 
