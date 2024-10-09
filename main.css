@@ -1,22 +1,66 @@
 *{
-    padding:0;
+   padding:0;
 }
 
-#header, #contact, #profile {
-    text-align:center;
- 
-}
+:root{
+    --primaryColor:rgb(69, 133, 69);
+    --secondaryColor:black;
+    --backgroundColor:rgb(226, 235, 212);
+    --fontFamily:Arial, Helvetica, sans-serif;
 
-body{
-    background:rgb(226, 235, 212);
-    font-size: 20px;
-}
-p{
-    color:green;
 }
 
 /* icons  */
-
-.fa-phone, .fa-envelope{
-    color:green;
+.fa-phone,
+.fa-envelope,
+.fa-linkedin,.fa-github
+{
+    color:var(--primaryColor);
 }
+
+/* header  */
+#header, #contact, #profile {
+    text-align:center;
+}
+
+
+body{
+    background:var(--backgroundColor);
+    font-size: 30px;
+    font-family:var(--fontFamily);
+}
+
+hr{
+    height:1px;
+    border:none;
+    color:var(--primaryColor);
+    background-color:var(--primaryColor);
+}
+h2{
+    display: inline;
+    background:linear-gradient(to bottom,rgb(226, 235, 212), rgb(69, 133, 69));
+    padding:10px;
+    
+}
+p{
+    color:var(--secondaryColor);
+}
+
+.table{
+    border-collapse: collapse;
+    border:solid;
+}
+
+thead{
+   border-bottom: solid;  
+}
+
+tr,td,th{
+    padding:12px 15px;
+    border-right:solid;
+    border-left:solid;
+}
+
+
+
+
